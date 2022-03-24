@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Información de usuario","Creacion de identificador de usuario","SUCCESS","2022-03-24T17:37:25.871-05:00[America/Bogota]","0.0","5.86"
+"Información de usuario","obtener información del primer usuario","SUCCESS","2022-03-24T17:37:31.728-05:00[America/Bogota]","0.0","2.42"
+"Manipulacion de usuariO","Actualizacion de datos","SUCCESS","2022-03-24T17:38:51.814-05:00[America/Bogota]","0.0","6.43"
+"Manipulacion de usuariO","Borrado de datos","SUCCESS","2022-03-24T17:38:58.259-05:00[America/Bogota]","0.0","0.91"
+"Información de usuario","obtener identificador del usuario 1","SUCCESS","2022-03-24T09:52:47.554-05:00[America/Bogota]","0.0","2.59"

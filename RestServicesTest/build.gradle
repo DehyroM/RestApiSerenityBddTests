@@ -43,10 +43,9 @@ dependencies {
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.3'
     implementation group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.11.3'
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.0'
-    // https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path
-    implementation group: 'com.jayway.jsonpath', name: 'json-path', version: '2.7.0'
-    implementation "org.slf4j:slf4j-simple:1.6.1"
 
+    implementation "org.slf4j:slf4j-simple:1.6.1"
+    implementation 'com.github.javafaker:javafaker:1.0.2'
 
 }
 

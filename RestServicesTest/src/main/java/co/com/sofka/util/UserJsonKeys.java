@@ -3,7 +3,8 @@ package co.com.sofka.util;
 public enum UserJsonKeys {
     NAME("[name]"),
     USERNAME("[username]"),
-    EMAIL("[email]");
+    EMAIL("[email]"),
+    JOB("[job]");
 
     private final String value;
 
