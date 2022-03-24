@@ -1,4 +1,4 @@
-Feature: Manipulacion de usuariO
+Feature: Manipulacion de usuario
   Como usuario de un servicio
   Quiero poder manipular mis datos
   Para actualizarlos o borrarlos

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Manipulacion de usuariO" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-24T22:38:51" hostname="DESKTOP-LIG7IFI" time="7.646">
+<testsuite name="Manipulacion de usuario" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-03-24T22:48:05" hostname="DESKTOP-LIG7IFI" time="2.316">
   <properties/>
-  <testcase name="Actualizacion de datos" classname="Manipulacion de usuariO" time="6.718"/>
-  <testcase name="Borrado de datos" classname="Manipulacion de usuariO" time="0.928"/>
-  <system-out><![CDATA[2022-03-24 17:38:52 INFO  userInfoReqResTestStepDefinition:50 {
-  "name": "Chaya",
-  "job": "Legal"
+  <testcase name="Actualizacion de datos" classname="Manipulacion de usuario" time="1.418"/>
+  <testcase name="Borrado de datos" classname="Manipulacion de usuario" time="0.897"/>
+  <system-out><![CDATA[2022-03-24 17:48:06 INFO  userInfoReqResTestStepDefinition:50 {
+  "name": "Joanna",
+  "job": "Manufacturing"
 }
 
 {
-    "name": "Chaya",
-    "job": "Legal",
-    "updatedAt": "2022-03-24T22:38:56.869Z"
+    "name": "Joanna",
+    "job": "Manufacturing",
+    "updatedAt": "2022-03-24T22:48:06.600Z"
 }
-2022-03-24 17:38:58 INFO  userInfoReqResTestStepDefinition:85 UPDATE USER DONE SUCCESSFULLY
+2022-03-24 17:48:07 INFO  userInfoReqResTestStepDefinition:85 UPDATE USER DONE SUCCESSFULLY
 
-2022-03-24 17:38:59 INFO  userInfoReqResTestStepDefinition:120 DELETE USER DONE SUCCESSFULLY
+2022-03-24 17:48:08 INFO  userInfoReqResTestStepDefinition:120 DELETE USER DONE SUCCESSFULLY
 ]]></system-out>
-  <system-err><![CDATA[1511 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/sofka/intellij/SerenityBDD/RestAPI/RestServicesTest/src/test/resources/features/ReqRes/userInfoReqRes.feature
-1511 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/sofka/intellij/SerenityBDD/RestAPI/RestServicesTest/src/test/resources/features/ReqRes/userInfoReqRes.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-1674 [Test worker] INFO  - 
+  <system-err><![CDATA[35545 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/sofka/intellij/SerenityBDD/RestAPI/RestServicesTest/src/test/resources/features/ReqRes/userInfoReqRes.feature
+35545 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/sofka/intellij/SerenityBDD/RestAPI/RestServicesTest/src/test/resources/features/ReqRes/userInfoReqRes.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+35560 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -28,7 +28,7 @@
 
 Actualizacion de datos(manipulacion-de-usuario;actualizacion-de-datos)
 -------------------------------------------------------------------
-8095 [Test worker] INFO  - 
+36960 [Test worker] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -38,9 +38,9 @@ Actualizacion de datos(manipulacion-de-usuario;actualizacion-de-datos)
 
 Actualizacion de datos
 ----------------------------------------------------------------------------
-8111 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/sofka/intellij/SerenityBDD/RestAPI/RestServicesTest/src/test/resources/features/ReqRes/userInfoReqRes.feature
-8111 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/sofka/intellij/SerenityBDD/RestAPI/RestServicesTest/src/test/resources/features/ReqRes/userInfoReqRes.feature is not under the 'features' directory. Requirements report will not be correctly generated!
-8111 [Test worker] INFO  - 
+36960 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/sofka/intellij/SerenityBDD/RestAPI/RestServicesTest/src/test/resources/features/ReqRes/userInfoReqRes.feature
+36960 [Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/sofka/intellij/SerenityBDD/RestAPI/RestServicesTest/src/test/resources/features/ReqRes/userInfoReqRes.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+36960 [Test worker] INFO  - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -49,7 +49,7 @@ Actualizacion de datos
 
 Borrado de datos(manipulacion-de-usuario;borrado-de-datos)
 -------------------------------------------------------------------
-9025 [Test worker] INFO  - 
+37859 [Test worker] INFO  - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
