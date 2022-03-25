@@ -1,51 +1,0 @@
-
-Z	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
-MWeb:ImgWithoutAltCheck¡"%Add an "alt" attribute to this image.(üÀõÆúÿÿÿÿ
-DWeb:BoldAndItalicTagsCheckº"Replace this <i> tag by <em>.(Î”şç
-DWeb:BoldAndItalicTagsCheck½"Replace this <i> tag by <em>.(µŞ‹•
-CWeb:BoldAndItalicTagsCheckÀ"Replace this <i> tag by <em>.(Õê‚?
-IWeb:BoldAndItalicTagsCheckÃ"Replace this <i> tag by <em>.(é˜‹ÿÿÿÿÿ
-UWeb:TableWithoutCaptionCheckÍ" Add a description to this table.(èÊ²²şÿÿÿÿ8²¢í‘ü/
-G	Web:S5256Í"%Add "<th>" headers to this "<table>".(èÊ²²şÿÿÿÿ8²¢í‘ü/
-K	Web:S1827Ï")Remove this deprecated "width" attribute.(œË«¯ùÿÿÿÿ8²¢í‘ü/
-L	Web:S1827Ï"*Remove this deprecated "valign" attribute.(œË«¯ùÿÿÿÿ8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheckÛ"Replace this <i> tag by <em>.(ËĞ¡ÿÿÿÿÿ8²¢í‘ü/
-JWeb:BoldAndItalicTagsCheckŞ"Replace this <i> tag by <em>.(ë­—8²¢í‘ü/
-UWeb:TableWithoutCaptionCheck" Add a description to this table.(¼ëùÏşÿÿÿÿ8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheck«"Replace this <i> tag by <em>.(áø¸üÿÿÿÿ8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheck²"Replace this <i> tag by <em>.(Õ¯¤„ÿÿÿÿÿ8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheck¹"Replace this <i> tag by <em>.(Õ¯¤„ÿÿÿÿÿ8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheckÀ"Replace this <i> tag by <em>.(Õ¯¤„ÿÿÿÿÿ8²¢í‘ü/
-JWeb:BoldAndItalicTagsCheckÇ"Replace this <i> tag by <em>.(¹Ôª8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheckÍ"Replace this <i> tag by <em>.(µëç”şÿÿÿÿ8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheckÔ"Replace this <i> tag by <em>.(µëç”şÿÿÿÿ8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheckÛ"Replace this <i> tag by <em>.(µëç”şÿÿÿÿ8²¢í‘ü/
-UWeb:TableWithoutCaptionCheckí" Add a description to this table.(¼ëùÏşÿÿÿÿ8²¢í‘ü/
-o Web:TableHeaderHasIdOrScopeCheckğ";Add either an 'id' or a 'scope' attribute to this <th> tag.(Ü¾¯¬8²¢í‘ü/
-o Web:TableHeaderHasIdOrScopeCheckñ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ÁØ±8²¢í‘ü/
-o Web:TableHeaderHasIdOrScopeCheckò";Add either an 'id' or a 'scope' attribute to this <th> tag.(ñ“²²8²¢í‘ü/
-o Web:TableHeaderHasIdOrScopeCheckó";Add either an 'id' or a 'scope' attribute to this <th> tag.(×¥‹Ü8²¢í‘ü/
-o Web:TableHeaderHasIdOrScopeCheckô";Add either an 'id' or a 'scope' attribute to this <th> tag.(›ùÎœ8²¢í‘ü/
-UWeb:TableWithoutCaptionCheckŠ" Add a description to this table.(Ûô¡ıÿÿÿÿ8²¢í‘ü/
-t Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(ôÜ¢¦úÿÿÿÿ8²¢í‘ü/
-t Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(Öê¤ÿÿÿÿÿ8²¢í‘ü/
-o Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(ÔÓ•§8²¢í‘ü/
-t Web:TableHeaderHasIdOrScopeCheck‘";Add either an 'id' or a 'scope' attribute to this <th> tag.(°‚Ø©ùÿÿÿÿ8²¢í‘ü/
-o Web:TableHeaderHasIdOrScopeCheck’";Add either an 'id' or a 'scope' attribute to this <th> tag.(†÷…–8²¢í‘ü/
-DWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(Ó’şÈ
-KWeb:BoldAndItalicTagsCheck³"Replace this <i> tag by <em>.(Ó’şÈ8²¢í‘ü/
-KWeb:BoldAndItalicTagsCheckÒ"Replace this <i> tag by <em>.(œ©„ì8²¢í‘ü/
-KWeb:BoldAndItalicTagsCheck×"Replace this <i> tag by <em>.(œ©„ì8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheckå"Replace this <i> tag by <em>.(Ê®±Àüÿÿÿÿ8²¢í‘ü/
-PWeb:TableWithoutCaptionCheckç" Add a description to this table.(½ÂÒå8²¢í‘ü/
-n Web:TableHeaderHasIdOrScopeCheckë";Add either an 'id' or a 'scope' attribute to this <th> tag.(“øÇb8²¢í‘ü/
-o Web:TableHeaderHasIdOrScopeCheckì";Add either an 'id' or a 'scope' attribute to this <th> tag.(ôøÓÂ8²¢í‘ü/
-t Web:TableHeaderHasIdOrScopeCheckí";Add either an 'id' or a 'scope' attribute to this <th> tag.(¯Ã³Æúÿÿÿÿ8²¢í‘ü/
-t Web:TableHeaderHasIdOrScopeCheckî";Add either an 'id' or a 'scope' attribute to this <th> tag.(Ü’é—şÿÿÿÿ8²¢í‘ü/
-t Web:TableHeaderHasIdOrScopeCheckï";Add either an 'id' or a 'scope' attribute to this <th> tag.(ß¿Øæúÿÿÿÿ8²¢í‘ü/
-o Web:TableHeaderHasIdOrScopeCheckğ";Add either an 'id' or a 'scope' attribute to this <th> tag.(²ëä8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheckş"Replace this <i> tag by <em>.(ëßå·ûÿÿÿÿ8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheckŒ"Replace this <i> tag by <em>.(ëßå·ûÿÿÿÿ8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheckš"Replace this <i> tag by <em>.(ëßå·ûÿÿÿÿ8²¢í‘ü/
-PWeb:BoldAndItalicTagsCheck¨"Replace this <i> tag by <em>.(ëßå·ûÿÿÿÿ8²¢í‘ü/
-IWeb:BoldAndItalicTagsCheck´"Replace this <i> tag by <em>.(È“åËÿÿÿÿÿ

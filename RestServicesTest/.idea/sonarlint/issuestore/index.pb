@@ -31,5 +31,3 @@ b
 2src/main/java/co/com/sofka/util/FileUtilities.java,1\e\1e18e00760cd396886eb24b9e58b7959a47fc7f6
 `
 0src/main/java/co/com/sofka/util/Log4jValues.java,f\a\fac5dd5be44dee423e2dfa2903e633749bf690c6
-O
-target/site/serenity/index.html,c\e\ce1d953599e56cfde85da6acfdbbb722b0c73490
