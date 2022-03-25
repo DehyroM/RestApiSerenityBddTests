@@ -12,6 +12,7 @@ import org.apache.http.HttpStatus;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
+import static co.com.sofka.model.dataUsers.DataUsers.dataUsers;
 import static co.com.sofka.question.ReqRes.UserJobResponse.userJobResponse;
 import static co.com.sofka.task.DeleteUser.deleteUser;
 import static co.com.sofka.task.DoPut.doPut;
@@ -37,15 +38,14 @@ public class userInfoReqResTestStepDefinition {
     private final Actor actor = Actor.named("User");
     private String bodyRequest;
     private Worker worker;
-    private final JobModel jobModel = new JobModel();
+    private JobModel jobModel;
 
     @Given("que el usuario esta en el recurso web indicando un nombre y un titulo de trabajo")
     public void queElUsuarioEstaEnElRecursoWebIndicandoUnNombreYUnNombreDeTrabajo() {
 
         PropertyConfigurator.configure(System.getProperty("user.dir")+"/"+LOG4J_PROPERTIES_FILE_PATH.getValue());
         actor.can(CallAnApi.at(URL_BASE));
-        jobModel.setUserName();
-        jobModel.setJobTitle();
+        jobModel = dataUsers();
         bodyRequest = defineBodyRequest(jobModel.getUserName(),jobModel.getJobTitle());
         LOGGER.info(bodyRequest);
 

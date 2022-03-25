@@ -1,6 +1,5 @@
 package co.com.sofka.model.JsonPlaceHolder;
 
-//@JsonFilter("userFilter")
 public class User {
 
     private Integer id;

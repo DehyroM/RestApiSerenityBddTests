@@ -1,12 +1,6 @@
 package co.com.sofka.model.ReqRes;
 
-import com.github.javafaker.Faker;
-
 public class JobModel {
-
-    Faker faker = new Faker();
-    String name = faker.name().firstName();
-    String job = faker.job().field();
 
     private String userName;
     private String jobTitle;
@@ -15,17 +9,16 @@ public class JobModel {
         return userName;
     }
 
-    public void setUserName() {
-        this.userName = name;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getJobTitle() {
         return jobTitle;
     }
 
-    public void setJobTitle() {
-        this.jobTitle = job;
+    public void setJobTitle(String jobTitle) {
+        this.jobTitle = jobTitle;
     }
-
 }
 

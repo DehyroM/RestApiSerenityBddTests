@@ -1,8 +1,8 @@
 package co.com.sofka.util;
 
 public enum Log4jValues {
-    LOG4J_PROPERTIES_FILE_PATH("\\src\\main\\resources\\log4j2.properties"),
-    USER_DIR(System.getProperty("user.dir"));
+
+    LOG4J_PROPERTIES_FILE_PATH("\\src\\main\\resources\\log4j2.properties");
 
     private final String value;
 

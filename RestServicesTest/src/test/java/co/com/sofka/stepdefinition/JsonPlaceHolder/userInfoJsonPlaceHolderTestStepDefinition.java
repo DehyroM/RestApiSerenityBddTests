@@ -1,6 +1,5 @@
 package co.com.sofka.stepdefinition.JsonPlaceHolder;
 
-import co.com.sofka.util.Log4jValues;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,7 +15,6 @@ import static co.com.sofka.question.JsonPlaceHolder.UserInfoResponse.response;
 import static co.com.sofka.task.DoPost.doPost;
 import static co.com.sofka.task.GetUser.getUser;
 import static co.com.sofka.util.FileUtilities.readFile;
-import static co.com.sofka.util.IdKeys.*;
 import static co.com.sofka.util.Log4jValues.LOG4J_PROPERTIES_FILE_PATH;
 import static co.com.sofka.util.UserJsonKeys.*;
 import static co.com.sofka.util.UserInfoKeys.*;
@@ -65,7 +63,6 @@ public class userInfoJsonPlaceHolderTestStepDefinition {
             LOGGER.error(e.getMessage(), e);
             LOGGER.warn(POST_ERROR);
         }
-
     }
 
     @Then("el usuario debera ver su informacion de usuario y su identificador: {string}")
@@ -103,7 +100,6 @@ public class userInfoJsonPlaceHolderTestStepDefinition {
             LOGGER.error(e.getMessage(), e);
             LOGGER.warn(GET_ERROR);
         }
-
     }
 
     @Then("el primer usuario debera ver su informacion de usuario")
@@ -124,7 +120,7 @@ public class userInfoJsonPlaceHolderTestStepDefinition {
         );
 
         actor.should(
-                seeThat("el id del primer usuario", act -> user[0].getId(), equalTo(ONE.getValue())),
+                seeThat("el id del primer usuario", act -> user[0].getId(), equalTo(Integer.parseInt(ID_USER_ONE.getValue()))),
                 seeThat("el nombre del primero usuario", act -> user[0].getName(), equalTo(NAME_USER_ONE.getValue())),
                 seeThat("el nombre de usuario del primer usuario", act -> user[0].getUsername(), equalTo(USERNAME_USER_ONE.getValue())),
                 seeThat("el email del primer usuario", act -> user[0].getEmail(), equalTo(EMAIL_USER_ONE.getValue()))

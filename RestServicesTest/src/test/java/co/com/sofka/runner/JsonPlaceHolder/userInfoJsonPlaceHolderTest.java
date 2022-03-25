@@ -1,6 +1,5 @@
 package co.com.sofka.runner.JsonPlaceHolder;
 
-
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberSerenityRunner;
 import org.junit.runner.RunWith;
