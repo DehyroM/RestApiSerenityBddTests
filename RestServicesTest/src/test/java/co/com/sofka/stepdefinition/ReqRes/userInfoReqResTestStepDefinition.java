@@ -12,7 +12,7 @@ import org.apache.http.HttpStatus;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-import static co.com.sofka.model.dataUsers.DataUsers.dataUsers;
+import static co.com.sofka.model.userdata.UserData.userData;
 import static co.com.sofka.question.ReqRes.UserJobResponse.userJobResponse;
 import static co.com.sofka.task.DeleteUser.deleteUser;
 import static co.com.sofka.task.DoPut.doPut;
@@ -45,7 +45,7 @@ public class userInfoReqResTestStepDefinition {
 
         PropertyConfigurator.configure(System.getProperty("user.dir")+"/"+LOG4J_PROPERTIES_FILE_PATH.getValue());
         actor.can(CallAnApi.at(URL_BASE));
-        jobModel = dataUsers();
+        jobModel = userData();
         bodyRequest = defineBodyRequest(jobModel.getUserName(),jobModel.getJobTitle());
         LOGGER.info(bodyRequest);
 
